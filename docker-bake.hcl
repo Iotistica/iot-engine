@@ -81,9 +81,7 @@ group "default" {
 
 target "_platforms" {
   platforms = [
-    "linux/amd64",
-    "linux/arm/v7",
-    "linux/arm64"
+    "linux/amd64"
   ]
 }
 
@@ -114,10 +112,7 @@ target "binary-smoketest" {
   target = "smoketest"
   output = ["type=cacheonly"]
   platforms = [
-    "linux/amd64",
-    "linux/arm/v7",
-    "linux/arm64"
-
+    "linux/amd64"
   ]
 }
 
